@@ -1,0 +1,2 @@
+document.getElementById('enter').onclick=()=>{document.getElementById('opening').style.display='none';document.getElementById('site').classList.remove('hidden');window.scrollTo(0,0)};
+document.querySelectorAll('.reveal-card').forEach(card=>card.addEventListener('click',()=>card.classList.toggle('open')));
